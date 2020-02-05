@@ -11,50 +11,57 @@
 
 	</head>
 
+
 	<body>
-		<div id = "main">
-			<h1>rock paper scissors calculator</h1>
+		<div id = "container">
+			<div id = "head">
+				<h1>rock paper scissors calculator</h1>
+			
+			</div>
+			
+			<div id = "main">
+				<form id = "main_form">
+					<p>
+						<label>what you threw last round: </label>
+						<select id = "you_threw">
+							<option value = "0">rock</option>
+							<option value = "1">paper</option>
+							<option value = "2">scissors</option>
 
-			<form id = "main_form">
-				<p>
-					<label>what you threw last round: </label>
-					<select id = "you_threw">
-						<option value = "0">rock</option>
-						<option value = "1">paper</option>
-						<option value = "2">scissors</option>
-
-					</select>
+						</select>
 					
-				</p>
+					</p>
 				
-				<p>
-					<label>what your opponent threw last round: </label>
-					<select id = "opp_threw">
-						<option value = "0">rock</option>
-						<option value = "1">paper</option>
-						<option value = "2">scissors</option>
+					<p>
+						<label>what your opponent threw last round: </label>
+						<select id = "opp_threw">
+							<option value = "0">rock</option>
+							<option value = "1">paper</option>
+							<option value = "2">scissors</option>
 
-					</select>
+						</select>
 
-				</p>
+					</p>
 
-			</form>
+				</form>
 
-			<button onclick = "calculate ()">calculate what to throw next!</button>
-			<p id = "result"></p>
+				<button onclick = "calculate ()">calculate what to throw next!</button>
+				<p id = "result"></p>
 
-		</div>
+			</div>
 
-		<div id = "foot">
-			<span class = "foot_link">			
-				<a href = "https://www.youtube.com/watch?v=rudzYPHuewc">how does it work?</a>
+			<div id = "foot">
+				<span class = "foot_link">			
+					<a href = "https://www.youtube.com/watch?v=rudzYPHuewc">how does it work?</a>
 
-			</span>
-			<span class = "foot_link">
-				<a href = "https://github.com/ssmman/rock-paper-scissors">read my garbage code</a>
+				</span>
+				<span class = "foot_link">
+					<a href = "https://github.com/ssmman/rock-paper-scissors">read my garbage code</a>
 
-			</span>
+				</span>
 
+			</div>
+		
 		</div>
 
 	</body>
