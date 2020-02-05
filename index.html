@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>rock paper scissors calculator</title>
+		
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8"/>		
+		
+		<link rel = "stylesheet" href = "styles.css">
+		<script type = "text/javascript" src = "main.js"></script>
+		
+	</head>
+	
+	<body>
+		<div id = "main">
+			<h1>rock paper scissors calculator</h1>
+			
+			<form id = "main_form">
+				<p>
+					<label>what you threw last round: </label>
+					<select id = "you_threw">
+						<option value = "0">rock</option>
+						<option value = "1">paper</option>
+						<option value = "2">scissors</option>
+						
+					</select>
+				
+				</p>
+				
+					<label>what your opponent threw last round: </label>
+					<select id = "opp_threw">
+						<option value = "0">rock</option>
+						<option value = "1">paper</option>
+						<option value = "2">scissors</option>
+						
+					</select>
+					
+				</p>
+			
+			</form>
+		
+			<button onclick = "calculate ()">calculate what to throw next!</button>
+			<p id = "result"></p>
+		
+		</div>
+		
+		<div id = "foot">
+			<span class = "foot_link">			
+				<a href = "https://www.youtube.com/watch?v=rudzYPHuewc">how does it work?</a>
+			
+			</span>
+			<span class = "foot_link">
+				<a href = "https://github.com/ssmman/rock-paper-scissors">read my garbage code</a>
+			
+			</span>
+		
+		</div>
+		
+	</body>
+	
+</html>
